@@ -23,10 +23,10 @@ Partial Class RegistrationPortal
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.btnPortalexit = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(Me.components)
@@ -144,9 +144,9 @@ Partial Class RegistrationPortal
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.confirmtab = New System.Windows.Forms.TabPage()
+        Me.Guna2Separator9 = New Guna.UI2.WinForms.Guna2Separator()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.lblconfirmGender = New Guna.UI2.WinForms.Guna2TextBox()
         Me.lblconfirmDateofBirth = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox64 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -160,6 +160,16 @@ Partial Class RegistrationPortal
         Me.lblNationality = New Guna.UI2.WinForms.Guna2TextBox()
         Me.label = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.lblconfirmStreet = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.lblconfirmTown = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox12 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox10 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.lblconfirmWard = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.lblconfirmLocalGov = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.lblconfirmDistrict = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.dgvConfirmEducationalDetails = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Level = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -172,16 +182,6 @@ Partial Class RegistrationPortal
         Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.lblconfirmDistrict = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblconfirmLocalGov = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblconfirmWard = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox10 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox12 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblconfirmTown = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblconfirmStreet = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2Separator9 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Guna2TabControl1.SuspendLayout()
         Me.personaltab.SuspendLayout()
         Me.addresstab.SuspendLayout()
@@ -1236,6 +1236,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox8.SelectedText = ""
         Me.Guna2TextBox8.Size = New System.Drawing.Size(387, 48)
         Me.Guna2TextBox8.TabIndex = 28
+        Me.Guna2TextBox8.TabStop = False
         '
         'txtsecondaryBoard
         '
@@ -1285,6 +1286,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox9.SelectedText = ""
         Me.Guna2TextBox9.Size = New System.Drawing.Size(74, 55)
         Me.Guna2TextBox9.TabIndex = 29
+        Me.Guna2TextBox9.TabStop = False
         '
         'txtsecondaryYear
         '
@@ -1334,6 +1336,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox13.SelectedText = ""
         Me.Guna2TextBox13.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox13.TabIndex = 33
+        Me.Guna2TextBox13.TabStop = False
         '
         'txtsecondaryMarks
         '
@@ -1383,6 +1386,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox11.SelectedText = ""
         Me.Guna2TextBox11.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox11.TabIndex = 31
+        Me.Guna2TextBox11.TabStop = False
         '
         'Guna2TextBox16
         '
@@ -1406,6 +1410,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox16.SelectedText = ""
         Me.Guna2TextBox16.Size = New System.Drawing.Size(157, 55)
         Me.Guna2TextBox16.TabIndex = 35
+        Me.Guna2TextBox16.TabStop = False
         '
         'txtsecondarySymbol
         '
@@ -1455,6 +1460,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox18.SelectedText = ""
         Me.Guna2TextBox18.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox18.TabIndex = 37
+        Me.Guna2TextBox18.TabStop = False
         '
         'txtsecondarytotal
         '
@@ -1542,6 +1548,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox19.SelectedText = ""
         Me.Guna2TextBox19.Size = New System.Drawing.Size(443, 48)
         Me.Guna2TextBox19.TabIndex = 28
+        Me.Guna2TextBox19.TabStop = False
         '
         'txthigherBoard
         '
@@ -1591,6 +1598,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox21.SelectedText = ""
         Me.Guna2TextBox21.Size = New System.Drawing.Size(74, 55)
         Me.Guna2TextBox21.TabIndex = 29
+        Me.Guna2TextBox21.TabStop = False
         '
         'txthigherYear
         '
@@ -1639,7 +1647,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox23.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
         Me.Guna2TextBox23.ForeColor = System.Drawing.Color.Black
         Me.Guna2TextBox23.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox23.Location = New System.Drawing.Point(0, 135)
+        Me.Guna2TextBox23.Location = New System.Drawing.Point(3, 135)
         Me.Guna2TextBox23.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Guna2TextBox23.Name = "Guna2TextBox23"
         Me.Guna2TextBox23.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1647,6 +1655,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox23.SelectedText = ""
         Me.Guna2TextBox23.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox23.TabIndex = 33
+        Me.Guna2TextBox23.TabStop = False
         '
         'txthigherMarks
         '
@@ -1696,6 +1705,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox25.SelectedText = ""
         Me.Guna2TextBox25.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox25.TabIndex = 31
+        Me.Guna2TextBox25.TabStop = False
         '
         'Guna2TextBox26
         '
@@ -1719,6 +1729,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox26.SelectedText = ""
         Me.Guna2TextBox26.Size = New System.Drawing.Size(157, 55)
         Me.Guna2TextBox26.TabIndex = 35
+        Me.Guna2TextBox26.TabStop = False
         '
         'txthigherSymbol
         '
@@ -1768,6 +1779,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox28.SelectedText = ""
         Me.Guna2TextBox28.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox28.TabIndex = 37
+        Me.Guna2TextBox28.TabStop = False
         '
         'txthigherTotal
         '
@@ -1843,6 +1855,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox30.SelectedText = ""
         Me.Guna2TextBox30.Size = New System.Drawing.Size(443, 48)
         Me.Guna2TextBox30.TabIndex = 28
+        Me.Guna2TextBox30.TabStop = False
         '
         'txtbachelorUni
         '
@@ -1892,6 +1905,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox32.SelectedText = ""
         Me.Guna2TextBox32.Size = New System.Drawing.Size(120, 55)
         Me.Guna2TextBox32.TabIndex = 29
+        Me.Guna2TextBox32.TabStop = False
         '
         'txtbachelorYear
         '
@@ -1940,7 +1954,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox34.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
         Me.Guna2TextBox34.ForeColor = System.Drawing.Color.Black
         Me.Guna2TextBox34.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox34.Location = New System.Drawing.Point(0, 135)
+        Me.Guna2TextBox34.Location = New System.Drawing.Point(5, 135)
         Me.Guna2TextBox34.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Guna2TextBox34.Name = "Guna2TextBox34"
         Me.Guna2TextBox34.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1948,6 +1962,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox34.SelectedText = ""
         Me.Guna2TextBox34.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox34.TabIndex = 33
+        Me.Guna2TextBox34.TabStop = False
         '
         'txtbachelorMarks
         '
@@ -1997,6 +2012,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox36.SelectedText = ""
         Me.Guna2TextBox36.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox36.TabIndex = 31
+        Me.Guna2TextBox36.TabStop = False
         '
         'Guna2TextBox37
         '
@@ -2020,6 +2036,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox37.SelectedText = ""
         Me.Guna2TextBox37.Size = New System.Drawing.Size(157, 55)
         Me.Guna2TextBox37.TabIndex = 35
+        Me.Guna2TextBox37.TabStop = False
         '
         'txtbachelorSymbol
         '
@@ -2069,6 +2086,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox39.SelectedText = ""
         Me.Guna2TextBox39.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox39.TabIndex = 37
+        Me.Guna2TextBox39.TabStop = False
         '
         'txtbachelorTotal
         '
@@ -2142,8 +2160,9 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox41.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.Guna2TextBox41.PlaceholderText = ""
         Me.Guna2TextBox41.SelectedText = ""
-        Me.Guna2TextBox41.Size = New System.Drawing.Size(443, 48)
+        Me.Guna2TextBox41.Size = New System.Drawing.Size(83, 48)
         Me.Guna2TextBox41.TabIndex = 28
+        Me.Guna2TextBox41.TabStop = False
         '
         'Guna2TextBox42
         '
@@ -2193,6 +2212,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox43.SelectedText = ""
         Me.Guna2TextBox43.Size = New System.Drawing.Size(166, 55)
         Me.Guna2TextBox43.TabIndex = 29
+        Me.Guna2TextBox43.TabStop = False
         '
         'Guna2TextBox44
         '
@@ -2249,6 +2269,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox45.SelectedText = ""
         Me.Guna2TextBox45.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox45.TabIndex = 33
+        Me.Guna2TextBox45.TabStop = False
         '
         'Guna2TextBox46
         '
@@ -2298,6 +2319,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox47.SelectedText = ""
         Me.Guna2TextBox47.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox47.TabIndex = 31
+        Me.Guna2TextBox47.TabStop = False
         '
         'Guna2TextBox48
         '
@@ -2321,6 +2343,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox48.SelectedText = ""
         Me.Guna2TextBox48.Size = New System.Drawing.Size(157, 55)
         Me.Guna2TextBox48.TabIndex = 35
+        Me.Guna2TextBox48.TabStop = False
         '
         'Guna2TextBox49
         '
@@ -2370,6 +2393,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox50.SelectedText = ""
         Me.Guna2TextBox50.Size = New System.Drawing.Size(124, 55)
         Me.Guna2TextBox50.TabIndex = 37
+        Me.Guna2TextBox50.TabStop = False
         '
         'Guna2TextBox51
         '
@@ -2426,6 +2450,7 @@ Partial Class RegistrationPortal
         Me.Guna2TextBox7.SelectedText = ""
         Me.Guna2TextBox7.Size = New System.Drawing.Size(226, 55)
         Me.Guna2TextBox7.TabIndex = 4
+        Me.Guna2TextBox7.TabStop = False
         '
         'Guna2Button2
         '
@@ -2476,6 +2501,13 @@ Partial Class RegistrationPortal
         Me.confirmtab.TabIndex = 3
         Me.confirmtab.Text = "Confirm"
         '
+        'Guna2Separator9
+        '
+        Me.Guna2Separator9.Location = New System.Drawing.Point(9, 58)
+        Me.Guna2Separator9.Name = "Guna2Separator9"
+        Me.Guna2Separator9.Size = New System.Drawing.Size(630, 10)
+        Me.Guna2Separator9.TabIndex = 49
+        '
         'FlowLayoutPanel2
         '
         Me.FlowLayoutPanel2.AutoScroll = True
@@ -2507,29 +2539,6 @@ Partial Class RegistrationPortal
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(686, 384)
         Me.Panel5.TabIndex = 0
-        '
-        'Guna2TextBox3
-        '
-        Me.Guna2TextBox3.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox3.BorderThickness = 0
-        Me.Guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox3.DefaultText = "District"
-        Me.Guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
-        Me.Guna2TextBox3.ForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox3.Location = New System.Drawing.Point(0, 2)
-        Me.Guna2TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Guna2TextBox3.Name = "Guna2TextBox3"
-        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox3.PlaceholderText = ""
-        Me.Guna2TextBox3.SelectedText = ""
-        Me.Guna2TextBox3.Size = New System.Drawing.Size(92, 55)
-        Me.Guna2TextBox3.TabIndex = 56
         '
         'lblconfirmGender
         '
@@ -2824,6 +2833,236 @@ Partial Class RegistrationPortal
         Me.Guna2Panel1.Size = New System.Drawing.Size(686, 328)
         Me.Guna2Panel1.TabIndex = 56
         '
+        'lblconfirmStreet
+        '
+        Me.lblconfirmStreet.BorderColor = System.Drawing.Color.Transparent
+        Me.lblconfirmStreet.BorderThickness = 0
+        Me.lblconfirmStreet.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lblconfirmStreet.DefaultText = ""
+        Me.lblconfirmStreet.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lblconfirmStreet.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lblconfirmStreet.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmStreet.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmStreet.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmStreet.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconfirmStreet.ForeColor = System.Drawing.Color.Black
+        Me.lblconfirmStreet.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmStreet.Location = New System.Drawing.Point(71, 262)
+        Me.lblconfirmStreet.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lblconfirmStreet.Name = "lblconfirmStreet"
+        Me.lblconfirmStreet.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lblconfirmStreet.PlaceholderText = ""
+        Me.lblconfirmStreet.SelectedText = ""
+        Me.lblconfirmStreet.Size = New System.Drawing.Size(212, 55)
+        Me.lblconfirmStreet.TabIndex = 64
+        '
+        'lblconfirmTown
+        '
+        Me.lblconfirmTown.BorderColor = System.Drawing.Color.Transparent
+        Me.lblconfirmTown.BorderThickness = 0
+        Me.lblconfirmTown.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lblconfirmTown.DefaultText = ""
+        Me.lblconfirmTown.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lblconfirmTown.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lblconfirmTown.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmTown.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmTown.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmTown.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconfirmTown.ForeColor = System.Drawing.Color.Black
+        Me.lblconfirmTown.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmTown.Location = New System.Drawing.Point(131, 197)
+        Me.lblconfirmTown.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lblconfirmTown.Name = "lblconfirmTown"
+        Me.lblconfirmTown.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lblconfirmTown.PlaceholderText = ""
+        Me.lblconfirmTown.SelectedText = ""
+        Me.lblconfirmTown.Size = New System.Drawing.Size(212, 55)
+        Me.lblconfirmTown.TabIndex = 63
+        '
+        'Guna2TextBox12
+        '
+        Me.Guna2TextBox12.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox12.BorderThickness = 0
+        Me.Guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox12.DefaultText = "Street:"
+        Me.Guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox12.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
+        Me.Guna2TextBox12.ForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox12.Location = New System.Drawing.Point(-3, 262)
+        Me.Guna2TextBox12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Guna2TextBox12.Name = "Guna2TextBox12"
+        Me.Guna2TextBox12.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox12.PlaceholderText = ""
+        Me.Guna2TextBox12.SelectedText = ""
+        Me.Guna2TextBox12.Size = New System.Drawing.Size(111, 55)
+        Me.Guna2TextBox12.TabIndex = 62
+        '
+        'Guna2TextBox10
+        '
+        Me.Guna2TextBox10.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox10.BorderThickness = 0
+        Me.Guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox10.DefaultText = "Town/Village:"
+        Me.Guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
+        Me.Guna2TextBox10.ForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox10.Location = New System.Drawing.Point(-3, 197)
+        Me.Guna2TextBox10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Guna2TextBox10.Name = "Guna2TextBox10"
+        Me.Guna2TextBox10.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox10.PlaceholderText = ""
+        Me.Guna2TextBox10.SelectedText = ""
+        Me.Guna2TextBox10.Size = New System.Drawing.Size(148, 55)
+        Me.Guna2TextBox10.TabIndex = 61
+        '
+        'lblconfirmWard
+        '
+        Me.lblconfirmWard.BorderColor = System.Drawing.Color.Transparent
+        Me.lblconfirmWard.BorderThickness = 0
+        Me.lblconfirmWard.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lblconfirmWard.DefaultText = ""
+        Me.lblconfirmWard.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lblconfirmWard.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lblconfirmWard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmWard.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmWard.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmWard.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconfirmWard.ForeColor = System.Drawing.Color.Black
+        Me.lblconfirmWard.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmWard.Location = New System.Drawing.Point(105, 132)
+        Me.lblconfirmWard.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lblconfirmWard.Name = "lblconfirmWard"
+        Me.lblconfirmWard.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lblconfirmWard.PlaceholderText = ""
+        Me.lblconfirmWard.SelectedText = ""
+        Me.lblconfirmWard.Size = New System.Drawing.Size(100, 55)
+        Me.lblconfirmWard.TabIndex = 60
+        '
+        'Guna2TextBox6
+        '
+        Me.Guna2TextBox6.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox6.BorderThickness = 0
+        Me.Guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox6.DefaultText = "Ward No.:"
+        Me.Guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
+        Me.Guna2TextBox6.ForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox6.Location = New System.Drawing.Point(-3, 132)
+        Me.Guna2TextBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Guna2TextBox6.Name = "Guna2TextBox6"
+        Me.Guna2TextBox6.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox6.PlaceholderText = ""
+        Me.Guna2TextBox6.SelectedText = ""
+        Me.Guna2TextBox6.Size = New System.Drawing.Size(111, 55)
+        Me.Guna2TextBox6.TabIndex = 59
+        '
+        'lblconfirmLocalGov
+        '
+        Me.lblconfirmLocalGov.BorderColor = System.Drawing.Color.Transparent
+        Me.lblconfirmLocalGov.BorderThickness = 0
+        Me.lblconfirmLocalGov.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lblconfirmLocalGov.DefaultText = ""
+        Me.lblconfirmLocalGov.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lblconfirmLocalGov.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lblconfirmLocalGov.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmLocalGov.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmLocalGov.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmLocalGov.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconfirmLocalGov.ForeColor = System.Drawing.Color.Black
+        Me.lblconfirmLocalGov.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmLocalGov.Location = New System.Drawing.Point(189, 67)
+        Me.lblconfirmLocalGov.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lblconfirmLocalGov.Name = "lblconfirmLocalGov"
+        Me.lblconfirmLocalGov.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lblconfirmLocalGov.PlaceholderText = ""
+        Me.lblconfirmLocalGov.SelectedText = ""
+        Me.lblconfirmLocalGov.Size = New System.Drawing.Size(212, 55)
+        Me.lblconfirmLocalGov.TabIndex = 58
+        '
+        'Guna2TextBox5
+        '
+        Me.Guna2TextBox5.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox5.BorderThickness = 0
+        Me.Guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox5.DefaultText = "Local Government:"
+        Me.Guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
+        Me.Guna2TextBox5.ForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox5.Location = New System.Drawing.Point(0, 70)
+        Me.Guna2TextBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Guna2TextBox5.Name = "Guna2TextBox5"
+        Me.Guna2TextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox5.PlaceholderText = ""
+        Me.Guna2TextBox5.SelectedText = ""
+        Me.Guna2TextBox5.Size = New System.Drawing.Size(177, 55)
+        Me.Guna2TextBox5.TabIndex = 57
+        '
+        'lblconfirmDistrict
+        '
+        Me.lblconfirmDistrict.BorderColor = System.Drawing.Color.Transparent
+        Me.lblconfirmDistrict.BorderThickness = 0
+        Me.lblconfirmDistrict.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.lblconfirmDistrict.DefaultText = ""
+        Me.lblconfirmDistrict.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.lblconfirmDistrict.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.lblconfirmDistrict.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmDistrict.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.lblconfirmDistrict.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmDistrict.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblconfirmDistrict.ForeColor = System.Drawing.Color.Black
+        Me.lblconfirmDistrict.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblconfirmDistrict.Location = New System.Drawing.Point(88, 5)
+        Me.lblconfirmDistrict.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.lblconfirmDistrict.Name = "lblconfirmDistrict"
+        Me.lblconfirmDistrict.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.lblconfirmDistrict.PlaceholderText = ""
+        Me.lblconfirmDistrict.SelectedText = ""
+        Me.lblconfirmDistrict.Size = New System.Drawing.Size(212, 55)
+        Me.lblconfirmDistrict.TabIndex = 56
+        '
+        'Guna2TextBox3
+        '
+        Me.Guna2TextBox3.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2TextBox3.BorderThickness = 0
+        Me.Guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox3.DefaultText = "District"
+        Me.Guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
+        Me.Guna2TextBox3.ForeColor = System.Drawing.Color.Black
+        Me.Guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox3.Location = New System.Drawing.Point(0, 2)
+        Me.Guna2TextBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Guna2TextBox3.Name = "Guna2TextBox3"
+        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox3.PlaceholderText = ""
+        Me.Guna2TextBox3.SelectedText = ""
+        Me.Guna2TextBox3.Size = New System.Drawing.Size(92, 55)
+        Me.Guna2TextBox3.TabIndex = 56
+        '
         'Panel6
         '
         Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -2837,44 +3076,44 @@ Partial Class RegistrationPortal
         '
         Me.dgvConfirmEducationalDetails.AllowUserToResizeColumns = False
         Me.dgvConfirmEducationalDetails.AllowUserToResizeRows = False
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Black
-        Me.dgvConfirmEducationalDetails.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        Me.dgvConfirmEducationalDetails.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.dgvConfirmEducationalDetails.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
-        DataGridViewCellStyle14.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvConfirmEducationalDetails.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvConfirmEducationalDetails.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgvConfirmEducationalDetails.ColumnHeadersHeight = 22
         Me.dgvConfirmEducationalDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.dgvConfirmEducationalDetails.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Level, Me.BoardUniversity, Me.Year, Me.Totalmarks, Me.Marksobtained, Me.SymbolNo})
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgvConfirmEducationalDetails.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgvConfirmEducationalDetails.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgvConfirmEducationalDetails.GridColor = System.Drawing.Color.White
         Me.dgvConfirmEducationalDetails.Location = New System.Drawing.Point(3, 3)
         Me.dgvConfirmEducationalDetails.Name = "dgvConfirmEducationalDetails"
         Me.dgvConfirmEducationalDetails.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.White
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgvConfirmEducationalDetails.RowHeadersDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial Narrow", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgvConfirmEducationalDetails.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.dgvConfirmEducationalDetails.RowHeadersVisible = False
         Me.dgvConfirmEducationalDetails.RowHeadersWidth = 53
         Me.dgvConfirmEducationalDetails.RowTemplate.Height = 26
@@ -3017,220 +3256,6 @@ Partial Class RegistrationPortal
         Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
         Me.Guna2GradientPanel1.Size = New System.Drawing.Size(1413, 684)
         Me.Guna2GradientPanel1.TabIndex = 1
-        '
-        'lblconfirmDistrict
-        '
-        Me.lblconfirmDistrict.BorderColor = System.Drawing.Color.Transparent
-        Me.lblconfirmDistrict.BorderThickness = 0
-        Me.lblconfirmDistrict.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.lblconfirmDistrict.DefaultText = ""
-        Me.lblconfirmDistrict.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.lblconfirmDistrict.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.lblconfirmDistrict.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmDistrict.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmDistrict.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmDistrict.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconfirmDistrict.ForeColor = System.Drawing.Color.Black
-        Me.lblconfirmDistrict.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmDistrict.Location = New System.Drawing.Point(88, 5)
-        Me.lblconfirmDistrict.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lblconfirmDistrict.Name = "lblconfirmDistrict"
-        Me.lblconfirmDistrict.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.lblconfirmDistrict.PlaceholderText = ""
-        Me.lblconfirmDistrict.SelectedText = ""
-        Me.lblconfirmDistrict.Size = New System.Drawing.Size(212, 55)
-        Me.lblconfirmDistrict.TabIndex = 56
-        '
-        'Guna2TextBox5
-        '
-        Me.Guna2TextBox5.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox5.BorderThickness = 0
-        Me.Guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox5.DefaultText = "Local Government:"
-        Me.Guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
-        Me.Guna2TextBox5.ForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox5.Location = New System.Drawing.Point(0, 70)
-        Me.Guna2TextBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Guna2TextBox5.Name = "Guna2TextBox5"
-        Me.Guna2TextBox5.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox5.PlaceholderText = ""
-        Me.Guna2TextBox5.SelectedText = ""
-        Me.Guna2TextBox5.Size = New System.Drawing.Size(177, 55)
-        Me.Guna2TextBox5.TabIndex = 57
-        '
-        'lblconfirmLocalGov
-        '
-        Me.lblconfirmLocalGov.BorderColor = System.Drawing.Color.Transparent
-        Me.lblconfirmLocalGov.BorderThickness = 0
-        Me.lblconfirmLocalGov.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.lblconfirmLocalGov.DefaultText = ""
-        Me.lblconfirmLocalGov.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.lblconfirmLocalGov.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.lblconfirmLocalGov.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmLocalGov.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmLocalGov.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmLocalGov.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconfirmLocalGov.ForeColor = System.Drawing.Color.Black
-        Me.lblconfirmLocalGov.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmLocalGov.Location = New System.Drawing.Point(189, 67)
-        Me.lblconfirmLocalGov.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lblconfirmLocalGov.Name = "lblconfirmLocalGov"
-        Me.lblconfirmLocalGov.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.lblconfirmLocalGov.PlaceholderText = ""
-        Me.lblconfirmLocalGov.SelectedText = ""
-        Me.lblconfirmLocalGov.Size = New System.Drawing.Size(212, 55)
-        Me.lblconfirmLocalGov.TabIndex = 58
-        '
-        'Guna2TextBox6
-        '
-        Me.Guna2TextBox6.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox6.BorderThickness = 0
-        Me.Guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox6.DefaultText = "Ward No.:"
-        Me.Guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
-        Me.Guna2TextBox6.ForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox6.Location = New System.Drawing.Point(-3, 132)
-        Me.Guna2TextBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Guna2TextBox6.Name = "Guna2TextBox6"
-        Me.Guna2TextBox6.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox6.PlaceholderText = ""
-        Me.Guna2TextBox6.SelectedText = ""
-        Me.Guna2TextBox6.Size = New System.Drawing.Size(111, 55)
-        Me.Guna2TextBox6.TabIndex = 59
-        '
-        'lblconfirmWard
-        '
-        Me.lblconfirmWard.BorderColor = System.Drawing.Color.Transparent
-        Me.lblconfirmWard.BorderThickness = 0
-        Me.lblconfirmWard.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.lblconfirmWard.DefaultText = ""
-        Me.lblconfirmWard.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.lblconfirmWard.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.lblconfirmWard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmWard.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmWard.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmWard.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconfirmWard.ForeColor = System.Drawing.Color.Black
-        Me.lblconfirmWard.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmWard.Location = New System.Drawing.Point(105, 132)
-        Me.lblconfirmWard.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lblconfirmWard.Name = "lblconfirmWard"
-        Me.lblconfirmWard.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.lblconfirmWard.PlaceholderText = ""
-        Me.lblconfirmWard.SelectedText = ""
-        Me.lblconfirmWard.Size = New System.Drawing.Size(100, 55)
-        Me.lblconfirmWard.TabIndex = 60
-        '
-        'Guna2TextBox10
-        '
-        Me.Guna2TextBox10.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox10.BorderThickness = 0
-        Me.Guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox10.DefaultText = "Town/Village:"
-        Me.Guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
-        Me.Guna2TextBox10.ForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox10.Location = New System.Drawing.Point(-3, 197)
-        Me.Guna2TextBox10.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Guna2TextBox10.Name = "Guna2TextBox10"
-        Me.Guna2TextBox10.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox10.PlaceholderText = ""
-        Me.Guna2TextBox10.SelectedText = ""
-        Me.Guna2TextBox10.Size = New System.Drawing.Size(148, 55)
-        Me.Guna2TextBox10.TabIndex = 61
-        '
-        'Guna2TextBox12
-        '
-        Me.Guna2TextBox12.BorderColor = System.Drawing.Color.Transparent
-        Me.Guna2TextBox12.BorderThickness = 0
-        Me.Guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox12.DefaultText = "Street:"
-        Me.Guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox12.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.2!)
-        Me.Guna2TextBox12.ForeColor = System.Drawing.Color.Black
-        Me.Guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox12.Location = New System.Drawing.Point(-3, 262)
-        Me.Guna2TextBox12.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Guna2TextBox12.Name = "Guna2TextBox12"
-        Me.Guna2TextBox12.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox12.PlaceholderText = ""
-        Me.Guna2TextBox12.SelectedText = ""
-        Me.Guna2TextBox12.Size = New System.Drawing.Size(111, 55)
-        Me.Guna2TextBox12.TabIndex = 62
-        '
-        'lblconfirmTown
-        '
-        Me.lblconfirmTown.BorderColor = System.Drawing.Color.Transparent
-        Me.lblconfirmTown.BorderThickness = 0
-        Me.lblconfirmTown.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.lblconfirmTown.DefaultText = ""
-        Me.lblconfirmTown.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.lblconfirmTown.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.lblconfirmTown.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmTown.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmTown.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmTown.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconfirmTown.ForeColor = System.Drawing.Color.Black
-        Me.lblconfirmTown.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmTown.Location = New System.Drawing.Point(131, 197)
-        Me.lblconfirmTown.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lblconfirmTown.Name = "lblconfirmTown"
-        Me.lblconfirmTown.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.lblconfirmTown.PlaceholderText = ""
-        Me.lblconfirmTown.SelectedText = ""
-        Me.lblconfirmTown.Size = New System.Drawing.Size(212, 55)
-        Me.lblconfirmTown.TabIndex = 63
-        '
-        'lblconfirmStreet
-        '
-        Me.lblconfirmStreet.BorderColor = System.Drawing.Color.Transparent
-        Me.lblconfirmStreet.BorderThickness = 0
-        Me.lblconfirmStreet.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.lblconfirmStreet.DefaultText = ""
-        Me.lblconfirmStreet.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.lblconfirmStreet.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.lblconfirmStreet.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmStreet.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.lblconfirmStreet.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmStreet.Font = New System.Drawing.Font("Arial Nova", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblconfirmStreet.ForeColor = System.Drawing.Color.Black
-        Me.lblconfirmStreet.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblconfirmStreet.Location = New System.Drawing.Point(71, 262)
-        Me.lblconfirmStreet.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.lblconfirmStreet.Name = "lblconfirmStreet"
-        Me.lblconfirmStreet.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.lblconfirmStreet.PlaceholderText = ""
-        Me.lblconfirmStreet.SelectedText = ""
-        Me.lblconfirmStreet.Size = New System.Drawing.Size(212, 55)
-        Me.lblconfirmStreet.TabIndex = 64
-        '
-        'Guna2Separator9
-        '
-        Me.Guna2Separator9.Location = New System.Drawing.Point(9, 58)
-        Me.Guna2Separator9.Name = "Guna2Separator9"
-        Me.Guna2Separator9.Size = New System.Drawing.Size(630, 10)
-        Me.Guna2Separator9.TabIndex = 49
         '
         'RegistrationPortal
         '
